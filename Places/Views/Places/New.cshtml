@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Travel Diary</title>
+    <link 
+      rel="stylesheet" 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+      crossorigin="anonymous">
+  </head>
+  <body class="container">
+    <form action="/places" method="post" enctype="multipart/form-data>
+      <label for="city">Add a new city</label>
+      <input id="city" name="city" type="text">
+      <br>
+      <label for="duration">How long did you stay there for?</label>
+      <input id="duration" name="duration" type="text">
+      <br>
+      <label for="companion">Who did you go with?</label>
+      <input id="companion" name="companion" type="text">
+      <br>
+      <label for="picture">Add a picture:</label>
+      <input id="picture name="picture" type="file">
+      <br>
+      <label for="entry">Journal entry:</label>
+      <input id="entry" name="entry" type="text" height="200px">
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
